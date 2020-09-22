@@ -156,7 +156,7 @@ def conv(cfg):
             elif cfg['layout_type'] == '抄写词语':
                 if contents and contents[-1] != 'EOL':
                     contents.append("EOL")
-        print contents
+        print(contents)
         return contents
  
     def draw_page( fname, page_num ):
